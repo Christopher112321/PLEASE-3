@@ -67,11 +67,11 @@ enableActiveHighlight(noBtn);
 yesBtn.addEventListener("click", () => {
   shakeElement(yesBtn);
   if (step === 0) {
-    question.innerHTML = "Cuma bisa nerima sih 😂😂";
+    question.innerHTML = "Ikhlas ga maapinnya 😂😂";
     changeGifWithTransition("https://www.bing.com/th/id/OGC.1bc5898975dd3d9c557c4b9813fd2adb?pid=1.7&rurl=https%3a%2f%2fi.pinimg.com%2foriginals%2f1b%2fc5%2f89%2f1bc5898975dd3d9c557c4b9813fd2adb.gif&ehk=TeY72nXKGYu8Zfy6zG2oS7kf4Lg6b86pWI6dyrlWljQ%3d");
     step++;
   } else if (step === 1) {
-    question.innerHTML = "✨ Gacorr :D ✨";
+    question.innerHTML = "✨ AWKOWKAOWKOKWA makasih udh dimaapin ✨";
     changeGifWithTransition("https://media1.giphy.com/media/iCVzZwwE6QNAV2tEE0/giphy.gif");
     yesBtn.style.display = "none";
     noBtn.style.display = "none";
